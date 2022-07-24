@@ -1,5 +1,5 @@
-export const ItemListContainer = (greetings) => {
+export const ItemListContainer = ({nombre}) => {
     return (
-        <p>Vengo desde: {greetings.texto}</p>
+        <p>Hello {nombre}</p>
     )
 }
